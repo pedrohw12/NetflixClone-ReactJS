@@ -23,6 +23,7 @@ function TabContentThree() {
                 <th>Standard</th>
                 <th>Premium</th>
               </tr>
+              </thead>
               <tbody>
                 <tr>
                   <td>monthly price</td>
@@ -67,7 +68,6 @@ function TabContentThree() {
                   <td><Icon icon={checkmark} size={10} /></td>
                 </tr>
               </tbody>
-            </thead>
           </table>
         </div>
       </div>
@@ -114,7 +114,7 @@ const TabContainer = styled.div`
     border-collapse: collapse;
   }
 
-  table thead th {
+  table thead td {
     text-transform: uppercase;
     padding: 0.8rem;
   }
